@@ -1,0 +1,32 @@
+#outer{
+    height: 200px;
+    width: 70px;
+    border:2px solid black;
+    margin: 50px auto;
+    box-shadow: 2px 2px 10px black;
+}
+.circle{
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    border: 2px solid black;
+    margin: 10px;
+    
+}
+#red{
+    background-color: red;
+    transition: 2s;
+}
+#red:hover{
+    background-color: red;
+    box-shadow: 0px 5px 12px maroon;
+}
+#yellow{
+    background-color: yellow;
+}
+#yellow:hover{
+    background-color: yellow;
+    box-shadow: 0px 5px 12px yellow;}
+#green{
+    background-color: green;
+}
